@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calc_set.MainPage">
+    <ScrollView>
+    <StackLayout Spacing = "25"
+                 BackgroundColor="DarkGray">
+        <StackLayout BackgroundColor="Gray">
+            <Label Text="Введённые множества:" 
+                   TextColor="Black" 
+                   HorizontalOptions="Center" 
+                   FontSize="24"/>
+            <StackLayout BackgroundColor="Gray" Orientation="Horizontal">
+                <Label Text="A"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       FontSize="24"/>
+                <Entry x:Name="set_A"
+                       Placeholder="Введите множество"
+                       FontSize="24"
+                       TextColor="Black"/>
+                <Button x:Name="random_A"
+                        Text="Random"
+                        FontSize="24"
+                        TextColor="Black"
+                        TextTransform="None"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="Gray" Orientation="Horizontal">
+                <Label Text="B"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       FontSize="24"/>
+                <Entry x:Name="set_B"
+                       Placeholder="Введите множество"
+                       FontSize="24"
+                       TextColor="Black"/>
+                <Button x:Name="random_B"
+                        Text="Random"
+                        FontSize="24"
+                        TextColor="Black"
+                        TextTransform="None"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="Gray" Orientation="Horizontal">
+                <Label Text="C"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       FontSize="24"/>
+                <Entry x:Name="set_C"
+                       Placeholder="Введите множество"
+                       FontSize="24"
+                       TextColor="Black"/>
+                <Button x:Name="random_C"
+                        Text="Random"
+                        FontSize="24"
+                        TextColor="Black"
+                        TextTransform="None"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="Gray">
+                <Label Text="Размер"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       FontSize="24"/>
+                
+                <Entry x:Name="size"
+                       Placeholder="Введите размер (для рандома)"
+                       FontSize="24"
+                       TextColor="Black"
+                       Keyboard="Numeric"/>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout BackgroundColor="Gray">
+            <Label Text="Выражение:"
+                   FontSize="24"
+                   HorizontalOptions="Center"
+                   TextColor="Black"/>
+            
+            <Label x:Name="entry_expression"
+                   FontSize="24"/>
+        </StackLayout>
+
+        <StackLayout BackgroundColor="Gray"
+                     Padding="5, 10, 5, 10"
+                     Spacing="10">
+            <StackLayout BackgroundColor="Gray"
+                         Orientation="Horizontal"
+                         Spacing="10">
+                <Button x:Name="key_A"
+                        BackgroundColor="DarkOrange"
+                        Text="A"
+                        FontSize="24"
+                        TextColor="Black"/>
+                <Button x:Name="key_B"
+                        BackgroundColor="DarkOrange"
+                        Text="B"
+                        FontSize="24"
+                        TextColor="Black"/>
+                <Button x:Name="key_C"
+                        BackgroundColor="DarkOrange"
+                        Text="C"
+                        FontSize="24"
+                        TextColor="Black"/>
+                <Button x:Name="key_intersection"
+                        BackgroundColor="DarkOrange"
+                        Text="⋂"
+                        FontSize="24"
+                        TextColor="Black"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="Gray"
+                         Orientation="Horizontal"
+                         Spacing="10">
+                <Button x:Name="key_unification"
+                        BackgroundColor="DarkOrange"
+                        Text="⋃"
+                        FontSize="24"
+                        TextColor="Black"/>
+                <Button x:Name="key_subtraction"
+                        BackgroundColor="DarkOrange"
+                        Text="\"
+                        FontSize="24"
+                        TextColor="Black"/>
+                <Button x:Name="key_symetrical_subtraction"
+                        BackgroundColor="DarkOrange"
+                        Text="△"
+                        FontSize="24"
+                        TextColor="Black"/>
+                <Button x:Name="key_adiition"
+                        BackgroundColor="DarkOrange"
+                        Text="‾"
+                        FontSize="24"
+                        TextColor="Black"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="Gray"
+                         Orientation="Horizontal"
+                         Spacing="10">
+                <Button x:Name="key_left"
+                        BackgroundColor="DarkOrange"
+                        Text="("
+                        FontSize="24"
+                        TextColor="Black"/>
+                <Button x:Name="key_right"
+                        BackgroundColor="DarkOrange"
+                        Text=")"
+                        Font=""
+                        FontSize="24"
+                        TextColor="Black"/>
+                <Button x:Name="key_backspace"
+                        BackgroundColor="DarkOrange"
+                        Text="←"
+                        FontSize="24"
+                        TextColor="Black"/>
+                <Button x:Name="key_equal"
+                        BackgroundColor="DarkOrange"
+                        Text="="
+                        FontSize="24"
+                        TextColor="Black"/>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout x:Name="answer_layout"  
+                     BackgroundColor="Gray"
+                     Spacing="10"
+                     IsVisible="true"
+                     HeightRequest="300">
+                <Label FontSize="24"
+                   Text="Ответ:"
+                   TextColor="Black"
+                   HorizontalOptions="Center"/>
+                <Label x:Name="answer"
+                   FontSize="24"
+                   TextColor="Black"
+                   LineHeight="1"/>
+        </StackLayout>
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

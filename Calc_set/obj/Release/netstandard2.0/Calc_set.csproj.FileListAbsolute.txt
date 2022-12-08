@@ -1,0 +1,15 @@
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\bin\Release\netstandard2.0\Calc_set.deps.json
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\bin\Release\netstandard2.0\Calc_set.dll
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\bin\Release\netstandard2.0\Calc_set.pdb
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\obj\Release\netstandard2.0\Calc_set.csproj.AssemblyReference.cache
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\obj\Release\netstandard2.0\Calc_set.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\obj\Release\netstandard2.0\Calc_set.AssemblyInfoInputs.cache
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\obj\Release\netstandard2.0\Calc_set.AssemblyInfo.cs
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\obj\Release\netstandard2.0\Calc_set.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\obj\Release\netstandard2.0\Calc_set.dll
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\obj\Release\netstandard2.0\refint\Calc_set.dll
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\obj\Release\netstandard2.0\Calc_set.pdb
+C:\Users\Vlad\Documents\Documents\Projects\Mobile_projects\Calc_set\Calc_set\Calc_set\Calc_set\obj\Release\netstandard2.0\ref\Calc_set.dll

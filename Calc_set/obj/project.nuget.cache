@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "DHLVUqMbHKWCkcxCcrj1HQBgkrNTEljapg/JYtwppRwIPGE1lzgWpml97ODDjuZu3M6F95fpdmn/8oPsdzZ9UQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vlad\\Documents\\Documents\\Projects\\Mobile_projects\\Calc_set\\Calc_set\\Calc_set\\Calc_set\\Calc_set.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
